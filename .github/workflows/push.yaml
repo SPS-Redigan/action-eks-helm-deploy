@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ansorredikru/action-eks-helm-deploy:latest,ansorredikru/action-eks-helm-deploy:${{ steps.version.outputs.tag }}
+          tags: 942460072514.dkr.ecr.ap-southeast-3.amazonaws.com/action:latest,ansorredikru/action-eks-helm-deploy:latest,ansorredikru/action-eks-helm-deploy:${{ steps.version.outputs.tag }}
           
 
       # - name: Configure AWS credentials
