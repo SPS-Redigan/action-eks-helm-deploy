@@ -5,7 +5,7 @@ on:
     types: [published]
 
 env:
-  AWS_REGION: ap-southeast-3
+  AWS_REGION: us-east-1
 
 jobs:
   push_to_registry:
