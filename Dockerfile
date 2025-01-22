@@ -1,4 +1,4 @@
-FROM 942460072514.dkr.ecr.ap-southeast-3.amazonaws.com/alpine:3.13
+FROM public.ecr.aws/redi-common/alpine:3.13
 
 ARG KUBECTL_VERSION="1.21.2"
 
