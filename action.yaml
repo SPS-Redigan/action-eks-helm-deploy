@@ -44,7 +44,7 @@ inputs:
         required: true
 runs:
     using: 'docker'
-    image: 'docker://ansorredikru/action-eks-helm-deploy:latest'
+    image: '942460072514.dkr.ecr.ap-southeast-3.amazonaws.com/action:latest'
     env:
         AWS_REGION: ${{ inputs.aws-region }}
         AWS_SECRET_ACCESS_KEY: ${{ inputs.aws-secret-access-key }}
