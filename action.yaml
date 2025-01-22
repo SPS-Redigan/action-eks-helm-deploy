@@ -45,7 +45,7 @@ inputs:
 runs:
     using: 'docker'
     # image: 'docker://ansorredikru/action-eks-helm-deploy:latest'
-    image: 'docker://public.ecr.aws/redi-common/action-eks-helm-deploy:v1.0.3'
+    image: 'docker://public.ecr.aws/redi-common/action-eks-helm-deploy:latest'
     env:
         AWS_REGION: ${{ inputs.aws-region }}
         AWS_SECRET_ACCESS_KEY: ${{ inputs.aws-secret-access-key }}
